@@ -17,6 +17,7 @@
 		1F430C491A4D096B00A8E7CB /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F430C481A4D096B00A8E7CB /* Settings.swift */; };
 		1FFD8FB51A4D1C610031AAE3 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFD8FB41A4D1C610031AAE3 /* SettingsViewController.swift */; };
 		1FFD8FB71A4D3F660031AAE3 /* README.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1FFD8FB61A4D3F660031AAE3 /* README.rtf */; };
+		1FFD8FB91A4D4D170031AAE3 /* walkthru1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1FFD8FB81A4D4D170031AAE3 /* walkthru1.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		1F430C481A4D096B00A8E7CB /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		1FFD8FB41A4D1C610031AAE3 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		1FFD8FB61A4D3F660031AAE3 /* README.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = README.rtf; sourceTree = "<group>"; };
+		1FFD8FB81A4D4D170031AAE3 /* walkthru1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = walkthru1.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 		1F430C181A4CE8D700A8E7CB = {
 			isa = PBXGroup;
 			children = (
+				1FFD8FB81A4D4D170031AAE3 /* walkthru1.gif */,
 				1F430C231A4CE8D700A8E7CB /* animatedTips */,
 				1F430C391A4CE8D700A8E7CB /* animatedTipsTests */,
 				1F430C221A4CE8D700A8E7CB /* Products */,
@@ -205,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F430C2C1A4CE8D700A8E7CB /* Main.storyboard in Resources */,
+				1FFD8FB91A4D4D170031AAE3 /* walkthru1.gif in Resources */,
 				1F430C311A4CE8D700A8E7CB /* LaunchScreen.xib in Resources */,
 				1FFD8FB71A4D3F660031AAE3 /* README.rtf in Resources */,
 				1F430C2E1A4CE8D700A8E7CB /* Images.xcassets in Resources */,

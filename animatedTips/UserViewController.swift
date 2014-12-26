@@ -39,7 +39,6 @@ class UserViewController: UIViewController {
         {
             billAmount.text = NSString(format: "$%.2f", lastBillAmount )
         }
-        updateHistoricalAvgLabel()
     }
     
     func updateHistoricalAvgLabel()
@@ -67,6 +66,7 @@ class UserViewController: UIViewController {
             
         }
         onEditingChanged( self )
+        updateHistoricalAvgLabel()
 
     }
     override func didReceiveMemoryWarning() {
@@ -85,10 +85,13 @@ class UserViewController: UIViewController {
         }
         if ( billAmount.text == "$" && bLowerViewIsHidden )
         {
+            Settings.sharedInstance.setBillAmount(0.0)
             return
         }
         if ( billAmount.text == "$" && !bLowerViewIsHidden )
         {
+            Settings.sharedInstance.setBillAmount(0.0)
+
             // hide the lower view
             downPressed( self )
             return
