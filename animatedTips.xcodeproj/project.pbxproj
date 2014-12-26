@@ -13,6 +13,10 @@
 		1F430C2E1A4CE8D700A8E7CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F430C2D1A4CE8D700A8E7CB /* Images.xcassets */; };
 		1F430C311A4CE8D700A8E7CB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F430C2F1A4CE8D700A8E7CB /* LaunchScreen.xib */; };
 		1F430C3D1A4CE8D700A8E7CB /* animatedTipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F430C3C1A4CE8D700A8E7CB /* animatedTipsTests.swift */; };
+		1F430C471A4CE8FC00A8E7CB /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F430C461A4CE8FC00A8E7CB /* UserViewController.swift */; };
+		1F430C491A4D096B00A8E7CB /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F430C481A4D096B00A8E7CB /* Settings.swift */; };
+		1FFD8FB51A4D1C610031AAE3 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFD8FB41A4D1C610031AAE3 /* SettingsViewController.swift */; };
+		1FFD8FB71A4D3F660031AAE3 /* README.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1FFD8FB61A4D3F660031AAE3 /* README.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		1F430C361A4CE8D700A8E7CB /* animatedTipsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = animatedTipsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F430C3B1A4CE8D700A8E7CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F430C3C1A4CE8D700A8E7CB /* animatedTipsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animatedTipsTests.swift; sourceTree = "<group>"; };
+		1F430C461A4CE8FC00A8E7CB /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		1F430C481A4D096B00A8E7CB /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		1FFD8FB41A4D1C610031AAE3 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		1FFD8FB61A4D3F660031AAE3 /* README.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = README.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +86,12 @@
 			isa = PBXGroup;
 			children = (
 				1F430C261A4CE8D700A8E7CB /* AppDelegate.swift */,
+				1FFD8FB61A4D3F660031AAE3 /* README.rtf */,
 				1F430C281A4CE8D700A8E7CB /* ViewController.swift */,
 				1F430C2A1A4CE8D700A8E7CB /* Main.storyboard */,
+				1FFD8FB41A4D1C610031AAE3 /* SettingsViewController.swift */,
+				1F430C481A4D096B00A8E7CB /* Settings.swift */,
+				1F430C461A4CE8FC00A8E7CB /* UserViewController.swift */,
 				1F430C2D1A4CE8D700A8E7CB /* Images.xcassets */,
 				1F430C2F1A4CE8D700A8E7CB /* LaunchScreen.xib */,
 				1F430C241A4CE8D700A8E7CB /* Supporting Files */,
@@ -194,6 +206,7 @@
 			files = (
 				1F430C2C1A4CE8D700A8E7CB /* Main.storyboard in Resources */,
 				1F430C311A4CE8D700A8E7CB /* LaunchScreen.xib in Resources */,
+				1FFD8FB71A4D3F660031AAE3 /* README.rtf in Resources */,
 				1F430C2E1A4CE8D700A8E7CB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,6 +226,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F430C291A4CE8D700A8E7CB /* ViewController.swift in Sources */,
+				1F430C471A4CE8FC00A8E7CB /* UserViewController.swift in Sources */,
+				1F430C491A4D096B00A8E7CB /* Settings.swift in Sources */,
+				1FFD8FB51A4D1C610031AAE3 /* SettingsViewController.swift in Sources */,
 				1F430C271A4CE8D700A8E7CB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +421,7 @@
 				1F430C421A4CE8D700A8E7CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F430C431A4CE8D700A8E7CB /* Build configuration list for PBXNativeTarget "animatedTipsTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +430,7 @@
 				1F430C451A4CE8D700A8E7CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
